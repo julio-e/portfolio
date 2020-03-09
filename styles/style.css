@@ -2,7 +2,7 @@ p{
     color: red;
 }
 
-header{
+#header{
     display: inline-block;
     
 }
@@ -14,7 +14,7 @@ header{
 footer{
     display: inline-block;
     vertical-align: bottom;
-    position: fixed;
+/*    position: fixed;*/
     
     bottom: 0px;
     left: 0px;
@@ -24,10 +24,15 @@ footer{
     padding-bottom: 5px;
     
 }
+#redesnav ul li{
+    display: inline;
+}
 
 #flechascroll{
     float: right;
     font-size: 3em;
     margin-right: 20px;
-    
+    position: fixed;
+    bottom: 5px;
+    right: 3px;
 }
