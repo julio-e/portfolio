@@ -7,46 +7,98 @@
         <script src="scripts/script.js"></script>
     </head>
     <body>
+        
         <header>
+            
             <div id='header'>
-                <h1>
-                Julio Enrique Soto
-                </h1>
-                <h2>
-                    Diseñador de videojuegos
-                </h2>
+                
+                <h1>Julio Enrique Soto</h1>
+                
+                <h2>Diseñador de videojuegos</h2>
+                
                 <figure>
                     <a href='index.html'> <img id='icono' src="images/icono.png" width='150px'> </a>
                 </figure>
+            
             </div>
+            
             <div id='menunav'>
+                
                 <nav>
+                   
                     <ul>
+                        
                         <li> <a href='index.html'>Portada</a> </li>
                         <li> <a href='cv.html'>CV</a> </li>
                         <li> <a href='competencias.html'>Competencias</a> </li>
                         <li> <a href='contacto.html'>Contacto</a> </li>
+                    
                     </ul>
+                    
                 </nav>
+                
             </div>
             
         </header>
         
         <main>
-            <h2>Contactame por correo electronico</h2>
             
-            <form>
-                <div>
-                    <label>Email<input type='text'></label>
-                </div>
-                <div>
-                    <label>Asunto<input type='text'></label>
-                </div>
-                <div>
-                    <label>Mensaje</label>
-                    <textarea placeholder="Cuerpo del mensaje"></textarea>
-                </div>
-            </form>
+            <h3>Contactame por correo electronico</h3>
+            
+            <fieldset>
+                
+                <form>
+                    
+                    <div>
+                        
+                        <label for='nombre'>Nombre</label>
+                        <input type='text' id='nombre' name='nombre'>
+                        
+                    </div>
+                    
+                    <div>
+
+                        <p>¿Por qué quieres contactar conmigo?</p>
+
+                        <div>
+                            <input id='curriculum' type='radio' name='asuntos' value='curriculum'>
+                            <label for='curriculum'>Solicitar CV.</label>
+                        </div>
+
+                        <div>
+                            <input id='entrevista' type='radio' name='asuntos' value='entrevista'>
+                            <label for='entrevista'>Acordar entrevista.</label>
+                        </div>
+
+                        <div>
+                            <input id='datosadicionales' type='radio' name='asuntos' value='datosadicionales'>
+                            <label for='datosadicionales'>Solicitar datos adicionales.</label>
+                        </div>
+
+                    </div>
+                    
+                    
+                    <div>
+                        <label for='cuerpomensaje'>Mensaje</label>
+                        <textarea id='cuerpomensaje' name='cuerpomensaje' placeholder="Cuerpo del mensaje"></textarea>
+                        
+                    </div>
+                                      
+                    <div>
+                        
+                        <button type="submit">Enviar correo</button>
+                        <p>&#40;No lo des, que de momento no hace nada&#41;</p>
+                        
+                    </div>
+                    
+                </form>
+                
+            </fieldset>
+            
+            <h3>Como referencia para los desplazamientos, vivo aquí:</h3>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4282.047957804374!2d-3.1885874680212707!3d40.632855813564014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1583838268073!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            
         </main>
         
         <footer>       
@@ -56,14 +108,23 @@
             <p>©Copyright 2020 Guadalajara <br> Julio Enrique Soto </p>
             <div id='redesnav'>
                 <nav>
+                    
                     <p><em>Redes Sociales</em></p>
+                    
                     <ul>
+                        
                         <li> <a href='https://github.com/julio-e'>Github</a> </li>
                         <li> <a href='https://codepen.io/julioe'>Codepen</a> </li>
                         <li> <a href='https://julio-kun.itch.io/'>Itch.io</a> </li>
+                        
                     </ul>
+                    
                 </nav>
+                
             </div>
+            
         </footer>
+        
     </body>
+    
 </html>
